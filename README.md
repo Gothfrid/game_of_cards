@@ -11,10 +11,14 @@ npm i
 npx react-native start --reset-cache
 ```
 Open another terminal instance and enter.
+
+
 For Android:
 ```sh
 npx react-native run-android
 ```
+
+
 For iOS:
 ```sh
 npx react-native run-ios
