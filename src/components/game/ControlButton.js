@@ -26,7 +26,10 @@ const ControlButton = ({
   const [visible, setVisibility] = useState(false);
   return (
     <View style={{opacity: disabled === true ? 0.4 : 1}}>
-      <TouchableOpacity style={[styles.button]} onPress={onPress}>
+      <TouchableOpacity
+        style={[styles.button]}
+        onPress={onPress}
+        disabled={disabled}>
         <Text style={styles.title}>{title}</Text>
       </TouchableOpacity>
     </View>
