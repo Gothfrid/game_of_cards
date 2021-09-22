@@ -69,9 +69,16 @@ const GameContainer = (): Node => {
         </View>
         <Text
           style={{
+            fontSize: 16,
+            fontWeight: '200',
+          }}>{`Cards left: ${52 - state.attempts - 1}`}</Text>
+        <Text
+          style={{
             fontSize: 24,
             fontWeight: '400',
-          }}>{`Next card will be: `}</Text>
+          }}>
+          {`Next card will be: `}
+        </Text>
         <View
           style={{
             display: 'flex',

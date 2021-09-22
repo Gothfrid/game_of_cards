@@ -23,5 +23,5 @@ const VALUES_MAP = [
 export const isGreater = (current: string, guessed: string): boolean => {
   const current_index = VALUES_MAP.indexOf(current);
   const guessed_index = VALUES_MAP.indexOf(guessed);
-  return current_index > guessed_index;
+  return current_index < guessed_index;
 };
